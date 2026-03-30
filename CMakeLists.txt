@@ -60,7 +60,6 @@ qt_add_resources(appvkStat "app_res"
         ${DB_FILES}
         README.md
         .gitignore
-        TODO.txt
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
