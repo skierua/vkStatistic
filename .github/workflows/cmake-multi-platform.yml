@@ -83,6 +83,6 @@ jobs:
       uses: actions/upload-artifact@v4
       if: success()
       with:
-        name: ${{ runner.os }}-app-build
+        name: vkStat-${{ runner.os }}-app-build
         path: ${{ github.workspace }}/build/
 
